@@ -1,0 +1,23 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancodev/landing-page-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancodev/landing-page-js/issues"
+  },
+  "homepage": "https://github.com/juancodev/landing-page-js#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
