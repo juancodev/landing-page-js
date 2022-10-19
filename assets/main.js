@@ -25,13 +25,13 @@ async function fetchData(urlApi) {
     console.log(getCharacters)
     let view = `
       ${getCharacters.data.results.map(heros =>`
-        <div class = "group relative">
-          <div class="w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
+        <div class="grid-characters">
+          <div class="characters__div">
             <a href="${heros.urls[0].url}" target="_blank">
-              <img src="${heros.thumbnail.path}.${heros.thumbnail.extension}" alt="${heros.name}" class="w-full"/>
+              <img src="${heros.thumbnail.path}.${heros.thumbnail.extension}" alt="${heros.name}" class="characters__img"/>
             </a>
           </div>
-          <div class="mt-4 flex justify-between">
+          <div class="characters__h3">
             <h3 class="text-sm text-gray-700">
               <span aria-hidden="true" class="absolute inset-0"></span>
               ${heros.name}

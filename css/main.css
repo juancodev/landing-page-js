@@ -1,0 +1,28 @@
+@import "./navbar.css";
+@import "./wrapper.css";
+@import "./hero.css";
+@import "./content.css";
+@import "./footer.css";
+
+:root{
+  --color-text: #EF4444;
+  --bg: #dc2626;
+  --gray: #6b7280;
+  --black: #202020;
+  --white: #ffffff;
+  --font: system-ui;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--bg);
+}

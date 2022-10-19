@@ -1,0 +1,38 @@
+.section-characters{
+  background-color: var(--white);
+  padding: 10px;
+  margin: 50px 0;
+}
+
+.section-title{
+  margin-bottom: 10px;
+}
+
+.characters{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 285px);
+  justify-content: center;
+  gap: 29px;
+}
+
+.grid-characters{
+  width: 100%;
+  height: auto;
+}
+
+.characters__img{
+  width: 100%;
+  height: 285px;
+  border-radius: 15px;
+}
+
+.characters__h3{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .section-title{
+    text-align: center;
+  }
+}
