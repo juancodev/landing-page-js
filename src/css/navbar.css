@@ -17,6 +17,37 @@
   cursor: pointer;
 }
 
+.menu-mobile.inactive {
+  display: none;
+}
+
+.menu-mobile.active {
+  display: block;
+}
+
+.menu-mobile {
+  position: absolute;
+  right: 0;
+  background-color: var(--semi-black);
+  height: 100vh;
+  width: 100%;
+}
+
+.menu-mobile ul {
+  list-style: none;
+  padding: 15px;
+}
+
+.menu-mobile ul li {
+  margin-bottom: 5px;
+}
+
+.menu-mobile ul li a {
+  text-decoration: none;
+  color: var(--white);
+  right: 0;
+  z-index: 100;
+}
 
 @media (min-width: 768px) {
   .navbar{
@@ -52,6 +83,10 @@
   .navbar-ul > a {
     text-decoration: none;
     color: var(--white);
+  }
+
+  .menu-mobile {
+    display: none;
   }
 
 }
